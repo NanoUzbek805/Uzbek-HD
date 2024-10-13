@@ -40,7 +40,6 @@ header {
   transition: transform 0.3s;
 }
 #menu1 ul li a:hover{
-  transform: scale(1.1) rotate(-5deg);
   color: rgb(255, 220, 220);
 }
 
@@ -168,7 +167,7 @@ main {
 .city:hover{
   transform: scale(1.2);
   background-color: brown;
-  color: aqua;
+  color: rgb(19, 15, 15);
 }
 .city:hover::before{
   opacity: 1;
@@ -195,10 +194,10 @@ main {
 .city{
   position: absolute;
   padding: 10px;
-  background-color: darkorange;
+  background-color: #201e1e;
   border-radius: 10px;
   cursor: pointer;
-  color: blue;
+  color: brown;
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
